@@ -13,7 +13,7 @@ body{
 .context {
     width: 100%;
     position: absolute;
-    top:33vh;
+    top:150px;
     
 }
 
@@ -21,7 +21,7 @@ body{
     background: #4e54c8;  
     background: linear-gradient(to left, #2918e6, #6b28d0);  
     width: 100%;
-    height:100vh;
+    height:600px;
     
    
 }
@@ -153,22 +153,18 @@ body{
 
 }
 
-
-#primary-button{
-    position: relative; 
-    z-index: 100; 
-    background-color: rgb(255, 255, 255, 0.2); 
-    color: white; 
+.thank-you-message {
+    display: none;
+    color: green;
+    font-size: 20px;
+    margin-top: 20px;
+}
+  .container {
+    position: relative;
+    z-index: 10; /* Bring form to the front */
 }
 
-#primary-button:hover {
-    background-color: #ffffff; /* Change background color on hover */
-    color: rgb(0, 0, 0);              /* Change text color */
-    transition: all 0.3s ease; /* Smooth transition effect */
+   .form-group {
+    position: relative;
+    z-index: 10;
 }
-
-#secondary-button {
-    position: relative; 
-    z-index: 100;
-}
-
