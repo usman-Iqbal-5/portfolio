@@ -1,4 +1,5 @@
 
+
 // Handle form submission
 document.getElementById('contactForm').addEventListener('submit', function (e) {
   e.preventDefault();  // Prevent the form from submitting the traditional way
@@ -19,3 +20,5 @@ document.getElementById('contactForm').addEventListener('submit', function (e) {
   // Submit the form
   this.submit();
 });
+
+

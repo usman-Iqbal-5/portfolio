@@ -153,6 +153,12 @@ body{
 
 }
 
+.typed-cursor {
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+  }
+  
 
 #primary-button{
     position: relative; 
