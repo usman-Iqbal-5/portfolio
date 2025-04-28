@@ -1,7 +1,7 @@
 tsParticles.load("tsparticles", {
   fullScreen: { enable: false },
   particles: {
-    number: { value: 120, density: { enable: true, value_area: 800 } },
+    number: { value: 80, density: { enable: true, value_area: 800 } },
     color: { value: ["#2918e6", "#6b28d0"] },
     
     shape: { type: "circle" },
