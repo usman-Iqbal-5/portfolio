@@ -238,6 +238,10 @@ body{
   }
 
   .btn-sm {
-    padding: 5px 10px; 
-    font-size: 12px; 
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+
+  .card {
+    background-color: transparent !important;
   }
