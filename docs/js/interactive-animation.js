@@ -26,6 +26,7 @@ tsParticles.load("tsparticles", {
       onHover: {
         enable: true,
         mode: "repulse",
+        reduceParticlesOnHover: true,
         repulse: { distance: 60, duration: 0.4 } 
       },
       onClick: {
