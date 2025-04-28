@@ -30,7 +30,7 @@ Author: Usman Iqbal
     integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/pages.css">
   <!-- Add these to the <head> section of your HTML -->
-<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
 
 
@@ -43,7 +43,7 @@ Author: Usman Iqbal
         <ul class="nav nav-pills">
           <li class="nav-item"><a href="../index.html" class="nav-link" aria-current="page">Home</a></li>
           <li class="nav-item"><a href="./About-me.html" class="nav-link">About</a></li>
-          <li class="nav-item active"><a href="./projects.html" class="nav-link">Projects</a></li>
+          <li class="nav-item active"><a href="./projects.html" class="nav-link active">Projects</a></li>
           <li class="nav-item"><a href="./Contact-me.html" class="nav-link">Contact me</a></li>
         </ul>
       </header>
@@ -54,14 +54,15 @@ Author: Usman Iqbal
 
 
 
-  <section class="mb-5 pb-0" id="Hero_section">
+  <section class="mb-0 pb-0" id="Hero_section">
 
 
     <div class="context">
       <div class="container hero_div px-4 pt-0 mt-0 ">
-        <h1 class="display-1 fw-bold mb-5">Projects</h1>
-        <div class="col-lg-6 mb-4 mt-2">
-          <p class="lead">Building web applications, software solutions, & exploring data science with a focus is on delivering clean,
+        <h1 class="display-1 fw-bold mb-5" data-aos="fade-up">Projects</h1>
+        <div class="col-lg-6 mb-4 mt-2" data-aos="fade-up">
+          <p class="lead">Building web applications, software solutions, & exploring data science with a focus is on
+            delivering clean,
             scalable, and innovative results. Below are a few projects worked on, showcasing a diverse skill set and a
             passion for solving real-world problems. </p>
         </div>
@@ -88,86 +89,95 @@ Author: Usman Iqbal
   </section>
 
 
+  <div class="main-body py-5">
+    <div id="tsparticles"></div>
 
-  <section id="cards" >
 
-    <div class="container">
+    <section id="cards" class="pt-5">
 
-      <!-- Row 1 -->
-      <div class="row mb-2 d-flex" data-aos="fade-up">
-        <!-- Project 1 -->
-        <div class="col-md-6 d-flex">
-          <div
-            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm position-relative w-100 hover-shadow">
-            <div class="col p-4 d-flex flex-column position-static">
-              <strong class="d-inline-block mb-2 text-colour">Software Application</strong>
-              <h3 class="mb-0">Prototype Travel App</h3>
-              <div class="my-2 text-body-secondary">Skills: Java, OOP, Data Structures & Algorithms</div>
-              <p class="card-text mb-auto">This is an efficient and scalable text-based prototype Travel designed using
-                Java.</p>
-              <a href="https://github.com/Usman-A-Iqbal/Prototype-Travel-App" target="_blank"
-                class="w-50 btn btn-outline-primary btn-sm mt-3">Link to GitHub</a>
+      <div class="container">
+
+        <!-- Row 1 -->
+        <div class="row mb-2 d-flex">
+          <!-- Project 1 -->
+          <div class="col-md-6 d-flex" data-aos="fade-up">
+            <div
+              class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm position-relative w-100 hover-shadow">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-colour">Software Application</strong>
+                <h3 class="mb-0">Prototype Travel App</h3>
+                <div class="my-2 text-body-secondary">Skills: Java, OOP, Data Structures & Algorithms</div>
+                <p class="card-text mb-auto">This is an efficient and scalable text-based prototype Travel designed
+                  using
+                  Java.</p>
+                <a href="https://github.com/Usman-A-Iqbal/Prototype-Travel-App" target="_blank"
+                  class="w-50 btn gradient-btn btn-sm mt-3">Link to GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="col-md-6 d-flex" data-aos="fade-up">
+            <div
+              class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm position-relative w-100 hover-shadow">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block text-colour">Web Application</strong>
+                <h3 class="mb-0">Eukami</h3>
+                <div class="my-2 text-body-secondary">Skills: HTML, Tailwind CSS, JavaScript, React, Node.JS & SQL.
+                </div>
+                <p class="card-text mb-auto">This is a full-stack E-commerce website focusing on Earphones and Audio. It
+                  has a sleek, user-friendly responsive design.</p>
+                <a href="#" target="_blank" class="w-50 btn gradient-btn btn-sm mt-3">Link to GitHub</a>
+              </div>
             </div>
           </div>
         </div>
 
-        <!-- Project 2 -->
-        <div class="col-md-6 d-flex">
-          <div
-            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm position-relative w-100 hover-shadow">
-            <div class="col p-4 d-flex flex-column position-static">
-              <strong class="d-inline-block text-colour">Web Application</strong>
-              <h3 class="mb-0">Eukami</h3>
-              <div class="my-2 text-body-secondary">Skills: HTML, Tailwind CSS, JavaScript, React, Node.JS & SQL.</div>
-              <p class="card-text mb-auto">This is a full-stack E-commerce website focusing on Earphones and Audio. It
-                has a sleek, user-friendly responsive design.</p>
-              <a href="#" target="_blank" class="w-50 btn btn-outline-primary btn-sm mt-3">Link to GitHub</a>
+        <!-- Row 2 -->
+        <div class="row mb-2 d-flex" data-aos="fade-up">
+          <!-- Project 3 -->
+          <div class="col-md-6 d-flex" data-aos="fade-up">
+            <div
+              class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm position-relative w-100 hover-shadow">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-colour">Software Application</strong>
+                <h3 class="mb-0">HangMan Game</h3>
+                <div class="my-2 text-body-secondary">Skills: Java, OOP & Defensive Programming</div>
+                <p class="card-text mb-auto">Implemented the classic Hangman game using Object-Oriented design in Java.
+                </p>
+                <a href="https://github.com/Usman-A-Iqbal/Hangman-Game" target="_blank"
+                  class="w-50 btn gradient-btn btn-sm mt-3">Link to GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="col-md-6 d-flex" data-aos="fade-up">
+            <div
+              class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm position-relative w-100 hover-shadow">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-colour">Data Science</strong>
+                <h3 class="mb-0">Data Mining Pipeline</h3>
+                <div class="my-2 text-body-secondary">Skills: Python, Pandas, Numpy & Machine Learning.</div>
+                <p class="card-text mb-auto">This is a full-stack Data Mining Pipeline with machine learning
+                  capabilities
+                  using Python and its libraries.</p>
+                <a href="https://github.com/Usman-A-Iqbal/Data_Mining_Pipeline" target="_blank"
+                  class="w-50 btn gradient-btn btn-sm mt-3">Link to GitHub</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- Row 2 -->
-      <div class="row mb-2 d-flex" data-aos="fade-up">
-        <!-- Project 3 -->
-        <div class="col-md-6 d-flex">
-          <div
-            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm position-relative w-100 hover-shadow">
-            <div class="col p-4 d-flex flex-column position-static">
-              <strong class="d-inline-block mb-2 text-colour">Software Application</strong>
-              <h3 class="mb-0">HangMan Game</h3>
-              <div class="my-2 text-body-secondary">Skills: Java, OOP & Defensive Programming</div>
-              <p class="card-text mb-auto">Implemented the classic Hangman game using Object-Oriented design in Java.
-              </p>
-              <a href="https://github.com/Usman-A-Iqbal/Hangman-Game" target="_blank"
-                class="w-50 btn btn-outline-primary btn-sm mt-3">Link to GitHub</a>
-            </div>
-          </div>
-        </div>
 
-        <!-- Project 4 -->
-        <div class="col-md-6 d-flex">
-          <div
-            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm position-relative w-100 hover-shadow">
-            <div class="col p-4 d-flex flex-column position-static">
-              <strong class="d-inline-block mb-2 text-colour">Data Science</strong>
-              <h3 class="mb-0">Data Mining Pipeline</h3>
-              <div class="my-2 text-body-secondary">Skills: Python, Pandas, Numpy & Machine Learning.</div>
-              <p class="card-text mb-auto">This is a full-stack Data Mining Pipeline with machine learning capabilities
-                using Python and its libraries.</p>
-              <a href="https://github.com/Usman-A-Iqbal/Data_Mining_Pipeline" target="_blank"
-                class="w-50 btn btn-outline-primary btn-sm mt-3">Link to GitHub</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    </section>
+  </div>
 
 
-  </section>
 
-  <br>
-  <footer class="border-top py-4 mt-5">
+
+  <footer class="border-top py-5">
     <div class="container text-center">
       <p class="mb-0 text-muted">© 2025 Usman Iqbal. All Rights Reserved.</p>
       <p class="text-muted">Designed by Usman </p>
@@ -182,8 +192,11 @@ Author: Usman Iqbal
     </script>
 
 
-<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-<script src="../js/all-pages.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="../js/all-pages.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+  <script src="../js/interactive-animation.js"></script>
 </body>
 
 </html>

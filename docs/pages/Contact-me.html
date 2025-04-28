@@ -41,7 +41,7 @@ Author: Usman Iqbal
           <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
           <li class="nav-item"><a href="./About-me.html" class="nav-link">About</a></li>
           <li class="nav-item"><a href="./projects.html" class="nav-link">Projects</a></li>
-          <li class="nav-item"><a href="#" class="nav-link" aria-current="Contact me">Contact me</a></li>
+          <li class="nav-item"><a href="#" class="nav-link active" aria-current="Contact me">Contact me</a></li>
         </ul>
       </header>
     </div>
@@ -51,14 +51,15 @@ Author: Usman Iqbal
 
 
 
-  <section class="mb-5 pb-0" id="Hero_section">
+  <section class="" id="Hero_section">
 
 
     <div class="context">
       <div class="container hero_div px-4 pt-0 mt-0 text-center">
-        <h1 class="display-1 fw-bold mb-5">Get in Touch</h1>
+        <h1 class="display-1 fw-bold mb-5" data-aos="fade-up">Get in Touch</h1>
         <div class=" mb-4 mt-2 col-lg-6 mx-auto">
-          <p class="lead">For inquiries or employment opportunities, please don’t hesitate to contact me. I look forward to hearing from you.</p>
+          <p class="lead" data-aos="fade-up">For inquiries or employment opportunities, please don’t hesitate to contact me. I look forward
+            to hearing from you.</p>
         </div>
       </div>
 
@@ -83,58 +84,71 @@ Author: Usman Iqbal
   </section>
 
 
+  <div class="main-body py-5">
+    <div id="tsparticles"></div>
 
-  <div class="container mt-5">
-    <div class="row justify-content-center">
-      <div class="col-md-8">
-        <h2 class="fw-bolder text-colour mt-5" data-aos="fade-up">Contact form</h2>
-        <p class="mb-5" data-aos="fade-up">Simply fill out the form below, and I’ll get back to you as soon as I can.</p>
-
-
-        <form id="contactForm"
-  action="https://docs.google.com/forms/d/e/1FAIpQLSeIISEPpvupyhlN6KvCy7qAhxneqn9WXH1nW1PyFcsNGju8iw/formResponse"
-  method="POST" target="hidden_iframe" data-aos="fade-up">
-
-  <div class="mb-3">
-    <label for="name" class="form-label">Name</label>
-    <input type="text" class="form-control" id="name" name="entry.1331486336" required placeholder="Your full name">
-  </div>
-
-  <div class="mb-3">
-    <label for="email" class="form-label">Email</label>
-    <input type="email" class="form-control" id="email" name="entry.237116340" required placeholder="Your email address">
-  </div>
-
-  <div class="mb-3">
-    <label for="phone" class="form-label">Phone Number</label>
-    <input type="text" class="form-control" id="phone" name="entry.281722518" required placeholder="Your phone number">
-  </div>
-
-  <div class="mb-3">
-    <label for="message" class="form-label">Message</label>
-    <textarea class="form-control" id="message" name="entry.33598663" rows="4" required placeholder="Your message here"></textarea>
-  </div>
-
-  <div class="col-lg-6 align-items-center mx-auto">
-    <button type="submit" class="btn btn-primary w-100 py-2">Send Message</button>
-  </div>
-
-</form>
-    
+    <div class="container pt-5">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <h2 class="fw-bolder text-colour mt-5" data-aos="fade-up">Contact form</h2>
+          <p class="mb-5" data-aos="fade-up">Simply fill out the form below, and I’ll get back to you as soon as I can.
+          </p>
 
 
-        <div class="thank-you-message mt-4 text-center" id="thankYouMessage" style="display:none;">
-          <p>Thank you for your message! I will get back to you soon.</p>
+          <form id="contactForm"
+            action="https://docs.google.com/forms/d/e/1FAIpQLSeIISEPpvupyhlN6KvCy7qAhxneqn9WXH1nW1PyFcsNGju8iw/formResponse"
+            method="POST" target="hidden_iframe" data-aos="fade-up">
+
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" name="entry.1331486336" required
+                placeholder="Your full name">
+            </div>
+
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" name="entry.237116340" required
+                placeholder="Your email address">
+            </div>
+
+            <div class="mb-3">
+              <label for="phone" class="form-label">Phone Number</label>
+              <input type="text" class="form-control" id="phone" name="entry.281722518" required
+                placeholder="Your phone number">
+            </div>
+
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" name="entry.33598663" rows="4" required
+                placeholder="Your message here"></textarea>
+            </div>
+
+            <div class="col-lg-6 align-items-center mx-auto mt-5">
+              <button type="submit" class="btn gradient-btn w-100 py-2">Send Message</button>
+            </div>
+
+          </form>
+
+
+
+          <div class="thank-you-message mt-4 text-center" id="thankYouMessage" style="display:none;">
+            <p>Thank you for your message! I will get back to you soon.</p>
+          </div>
         </div>
       </div>
+
+      <iframe name="hidden_iframe" style="display:none;" id="hidden_iframe"></iframe>
     </div>
 
-    <iframe name="hidden_iframe" style="display:none;" id="hidden_iframe"></iframe>
+
+
   </div>
 
 
-  <br>
-  <footer class="border-top py-4 mt-5">
+
+
+
+  <footer class="border-top py-5">
     <div class="container text-center">
       <p class="mb-0 text-muted">© 2025 Usman Iqbal. All Rights Reserved.</p>
       <p class="text-muted">Designed by Usman </p>
@@ -149,12 +163,16 @@ Author: Usman Iqbal
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
 
-  </script>
+    </script>
 
   <script src="../js/contact.js">
 
   </script>
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   <script src="../js/all-pages.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+  <script src="../js/interactive-animation.js"></script>
+
 
 </html>

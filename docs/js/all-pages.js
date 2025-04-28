@@ -4,3 +4,5 @@ AOS.init({
     easing: 'ease-out', // Easing function
     delay: 100, // Delay before animation starts
   });
+
+  
