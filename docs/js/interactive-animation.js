@@ -1,7 +1,7 @@
 tsParticles.load("tsparticles", {
   fullScreen: { enable: false },
   particles: {
-    number: { value: 50, density: { enable: true, value_area: 600 } },
+    number: { value: 50, density: { enable: true, value_area: 700 } },
     color: { value: ["#2918e6", "#6b28d0"] },
     
     shape: { type: "circle" },
@@ -9,9 +9,9 @@ tsParticles.load("tsparticles", {
     size: { value: 4, random: true },  
     move: {
       enable: true,
-      speed: 0.5,  
+      speed: 0.8,  
       direction: "none",
-      random: true,  // Randomized direction for a more chaotic look
+      random: true,  
       straight: false,
       outModes: { default: "out" },
       attract: {
@@ -27,7 +27,7 @@ tsParticles.load("tsparticles", {
         enable: true,
         mode: "repulse",
         reduceParticlesOnHover: true,
-        repulse: { distance: 60, duration: 0.4 } 
+        repulse: { distance: 50, duration: 0.4 } 
       },
       onClick: {
         enable: true,
@@ -37,8 +37,8 @@ tsParticles.load("tsparticles", {
     },
     modes: {
       repulse: {
-        distance: 50,  // Distance between particles and the mouse
-        duration: 0.3  // Speed of repulsion
+        distance: 100,  // Distance between particles and the mouse
+        duration: 0.6  // Speed of repulsion
       },
       push: {
         quantity: 2  // Adds more particles when clicked

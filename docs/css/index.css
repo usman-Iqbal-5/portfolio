@@ -10,6 +10,27 @@ body{
 }
 
 
+
+ .nav-link {
+    background: linear-gradient(to left, #2918e6, #6b28d0);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: background 0.3s ease;
+  }
+
+ 
+  .active{
+    background: linear-gradient(to left, #2918e6, #6b28d0) !important;
+    color: white !important;
+  }
+
+
+  .nav-link:hover {
+    text-decoration: none;
+    
+  }
+
+
 .context {
     width: 100%;
     position: absolute;
