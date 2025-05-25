@@ -25,8 +25,14 @@ body{
 
 
   .nav-link:hover {
-    text-decoration: none;
-    
+    background: linear-gradient(to right, #2918e6, #6b28d0, #b306e8);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: background 0.3s ease;
+  }
+
+  nav{
+    z-index: 1000;
   }
 
 
