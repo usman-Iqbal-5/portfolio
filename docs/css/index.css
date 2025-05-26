@@ -36,6 +36,11 @@ body{
     z-index: 1000;
   }
 
+  .creative-font {
+    font-family: 'Brush Script MT', cursive;
+    font-weight: bold;
+  }
+
 
 .context {
     width: 100%;
