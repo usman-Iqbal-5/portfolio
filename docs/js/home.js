@@ -1,4 +1,3 @@
-
 var typed = new Typed("#typed-text", {
   strings: ["Usman Iqbal", "MSc Computer Science", "Web Developer", "Software Developer"],
   typeSpeed: 50,
