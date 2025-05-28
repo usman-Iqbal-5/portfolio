@@ -1,50 +1,61 @@
 # 🎨 Personal Portfolio Website
 
-A sleek, responsive, and animated personal portfolio website built using **HTML**, **CSS**, **JavaScript**, and **Bootstrap**. Designed to showcase projects, share a professional profile, and enable direct contact through a fully functional form. The site includes engaging animations and interactive elements to enhance user experience.
+A sleek, modern, and fully responsive personal portfolio website built with **HTML5**, **CSS3**, **JavaScript**, and **Bootstrap**. This site features engaging animations and interactive elements powered by popular JavaScript libraries such as **tsparticles** for dynamic background effects and **Type.js** for elegant typing animations.
 
-## 🌐 Live Website
-
-👉 [Visit My Portfolio](https://usman-iqbal-5.github.io/portfolio/index.html)
+Designed to showcase my projects, skills, and professional profile while enabling seamless communication through a fully functional contact form.
 
 ---
 
-## 📌 Features
+## 🌐 Live Demo
 
-* **Responsive Design** – Adapts beautifully to desktops, tablets, and mobile devices.
-* **Home Page** – Clean, welcoming landing section with animated background bubbles.
-* **About Page** – Highlights technical skills, personal background, and career goals.
-* **Projects Page** – Showcases selected work with descriptions and links.
-* **Contact Page** – Includes a working form for direct communication.
-* **Interactive Visuals**:
-
-  * Floating, randomly moving **bubbles** in the background.
-  * Clicking bubbles creates more; mouse movements cause them to disperse.
-  * Subtle animation effects throughout for a polished experience.
+👉 [View Live Portfolio](https://usman-iqbal-5.github.io/portfolio/index.html)
 
 ---
 
-## 🛠️ Built With
+## 📌 Key Features
 
-* **HTML5** – Page structure and semantic layout
-* **CSS3** – Custom styling
-* **JavaScript (Vanilla)** – Interactive logic and animations
-* **Bootstrap** – Responsive layout and component library
-* *(Optional: EmailJS or Formspree for form handling)*
+- **Responsive Design**  
+  Optimised for all screen sizes including desktops, tablets, and smartphones to ensure a seamless user experience.
+
+- **Animated Backgrounds**  
+  Utilises **tsparticles** to create smooth, interactive floating bubbles that respond to user interactions such as clicks and mouse movement.
+
+- **Dynamic Typing Effect**  
+  Implements **Type.js** for fluid, customisable typing animations on the landing page text elements, adding a professional and engaging touch.
+
+- **Multi-Page Layout**  
+  - **Home**: Clean landing page with animated background and introductory text.  
+  - **About**: Detailed overview of technical skills, personal background, and career aspirations.  
+  - **Projects**: Showcase of selected projects with descriptions, technologies used, and external links.  
+  - **Contact**: Fully functional contact form integrated for direct communication.
+
+- **Performance Optimised**  
+  Efficient asset loading and clean code ensure fast load times and smooth interactions.
 
 ---
 
-## 🧠 Purpose
+## 🛠️ Technologies Used
 
-This website serves as a personal portfolio to present my professional profile, technical abilities, and creative projects. It provides an accessible way for employers, collaborators, and others to explore my work and connect with me directly.
+- **HTML5** – Semantic markup for accessibility 
+- **CSS3** – Custom styles, animations, and responsive design  
+- **JavaScript (ES6+)** – Interactive functionality and DOM manipulation  
+- **Bootstrap 5** – Grid system and pre-built responsive components  
+- **tsparticles** – Lightweight particle animation library for dynamic backgrounds  
+- **Type.js** – Typing effect library for animated text  
+
+---
+
+## 🎯 Purpose
+
+This portfolio website is designed to professionally present my skills, projects, and experiences to potential employers and collaborators. It acts as a digital CV and project showcase, making it easy for visitors to learn about my expertise and get in touch.
 
 ---
 
 ## 📬 Contact
 
-If you'd like to get in touch, feel free to use the [Contact Me](https://your-website-link.com/contact.html) form on the site — or reach out via email: **[your-email@example.com](mailto:your-email@example.com)**.
-
+I welcome opportunities for collaboration, employment, or project discussions. You can reach me via the contact form on the website.
 ---
 
-> ℹ️ This project is for presentation purposes only and is not intended for distribution or reuse.
+> ℹ️ **Note:** This project is for demonstration and portfolio purposes only. It is not intended for distribution or reuse.
 
 ---
