@@ -47,7 +47,7 @@ This portfolio website is designed to professionally present my skills, projects
 
 ## 📬 Contact
 
-I welcome opportunities for collaboration, employment, or project discussions. You can reach me via the contact form on the website.
+I welcome opportunities for Collaboration and employment. You can reach me via the contact form on my website. 
 ---
 
 > ℹ️ **Note:** This project is for demonstration and portfolio purposes only. It is not intended for distribution or reuse.
