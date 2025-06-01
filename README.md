@@ -6,12 +6,6 @@ Designed to showcase my projects, skills, and professional profile while enablin
 
 ---
 
-## 🌐 Live Demo
-
-👉 [View Live Portfolio](https://usman-iqbal-5.github.io/portfolio/index.html)
-
----
-
 ## 📌 Key Features
 
 - **Responsive Design**  
