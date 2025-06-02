@@ -49,6 +49,10 @@ nav {
     z-index: 1000;
 }
 
+.nav-item{
+    min-width: 110px;
+}
+
 .creative-font {
     font-family: 'Brush Script MT', cursive;
     font-weight: bold;
@@ -205,12 +209,9 @@ nav {
 }
 
 #primary-button:hover {
-    background-color: #ffffff;
-    /* Change background color on hover */
+   background-color: #ffffff;
     color: rgb(0, 0, 0);
-    /* Change text color */
     transition: all 0.3s ease;
-    /* Smooth transition effect */
 }
 
 #secondary-button {

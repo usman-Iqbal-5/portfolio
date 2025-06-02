@@ -58,6 +58,10 @@ nav {
     z-index: 1000;
 }
 
+.nav-item{
+    min-width: 110px;
+}
+
 .creative-font {
     font-family: 'Brush Script MT', cursive;
     font-weight: bold;
