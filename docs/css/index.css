@@ -9,6 +9,48 @@ body {
     font-family: 'Exo', sans-serif;
 }
 
+#nav-bar {
+
+    position: fixed;
+    /* Ensures it stays in the normal workflow */
+    z-index: 1000;
+    /* Higher than the hero section which was overlapping it and removing the clickable effect */
+    background-color: white;
+    width: 100vw;
+
+}
+
+.nav-link {
+    background: linear-gradient(to left, #2918e6, #6b28d0);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: background 0.3s ease;
+}
+
+
+.active {
+    background: linear-gradient(to left, #2918e6, #6b28d0) !important;
+    color: white !important;
+}
+
+
+.nav-link:hover {
+    background: linear-gradient(to right, #2918e6, #6b28d0, #b306e8);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: background 0.3s ease;
+}
+
+nav {
+    z-index: 1000;
+}
+
+.creative-font {
+    font-family: 'Brush Script MT', cursive;
+    font-weight: bold;
+}
+
+
 
 .context {
     width: 100%;
@@ -125,47 +167,6 @@ body {
 
 .hero_div * {
     color: white;
-}
-
-#nav-bar {
-
-    position: fixed;
-    /* Ensures it stays in the normal workflow */
-    z-index: 1000;
-    /* Higher than the hero section which was overlapping it and removing the clickable effect */
-    background-color: white;
-    width: 100vw;
-
-}
-
-.nav-link {
-    background: linear-gradient(to left, #2918e6, #6b28d0);
-    -webkit-background-clip: text;
-    color: transparent;
-    transition: background 0.3s ease;
-}
-
-
-.active {
-    background: linear-gradient(to left, #2918e6, #6b28d0) !important;
-    color: white !important;
-}
-
-
-.nav-link:hover {
-    background: linear-gradient(to right, #2918e6, #6b28d0, #b306e8);
-    -webkit-background-clip: text;
-    color: transparent;
-    transition: background 0.3s ease;
-}
-
-nav {
-    z-index: 1000;
-}
-
-.creative-font {
-    font-family: 'Brush Script MT', cursive;
-    font-weight: bold;
 }
 
 
