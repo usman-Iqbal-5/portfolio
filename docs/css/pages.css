@@ -59,7 +59,11 @@ nav {
 }
 
 .nav-item{
-    min-width: 80px;
+    min-width: 75px;
+}
+.nav-link{
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .creative-font {
