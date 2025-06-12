@@ -12,7 +12,7 @@ document.getElementById('contactForm').addEventListener('submit', function (e) {
     document.getElementById('thankYouMessage').style.display = 'block';
     setTimeout(function () {
       document.getElementById('thankYouMessage').style.display = 'none'; 
-    }, 5000);
+    }, 8000);
   };
 
   // Submit the form
